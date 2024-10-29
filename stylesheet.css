@@ -1,1 +1,35 @@
-
+body {
+  background-color: powderblue;
+  background-image: url('FirehouseSealants/FirehouseSealants_Images/favicon_io/BC_Wildfire.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 70% 70%;
+}
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+  border: 2px green;
+  margin: 50px;
+}
+p {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+  border: 2px orange;
+  padding: 30px;
+}
+p1 {
+  color: white;
+  font-family: arial;
+  font-size: 100%;
+  border: 8px black;
+}
+table, th, td {
+  border: 1px black;
+  border-collapse: collapse;
+  border-style: solid;
+}
+th, td {
+  background-color: white;
+}
