@@ -27,6 +27,8 @@ February 21st 2026
 
 Flat and responsive website template, designed and coded by [Maxim Orlov](https://github.com/orlovmax).
 
+https://github.com/website-templates/portfolio_one-page-template/tree/master
+
 Demo: [http://website-templates.github.io/portfolio_one-page-template](http://website-templates.github.io/portfolio_one-page-template/)
 
 ![Mockup demo](screenshots/pic.jpg)
