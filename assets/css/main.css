@@ -4063,6 +4063,7 @@ input, select, textarea {
     display: flex; /* Aligns child containers horizontally */
     justify-content: center; /* Centers the images within the gallery */
     gap: 20px; /* Adds space between images */
+	margin-bottom: 20px; /* 20px gap below images */
 }
 
 /* Individual image container */
@@ -4108,6 +4109,7 @@ input, select, textarea {
     font-size: 18px;
     padding: 10px;
 }
+
 
 
 
