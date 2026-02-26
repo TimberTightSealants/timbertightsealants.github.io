@@ -4023,17 +4023,17 @@ input, select, textarea {
 
 * {box-sizing: border-box}
 
-/* Container needed to position the overlay. Adjust the width as needed */
+/* Container needed to position the overlay. Adjust the width as needed - 50%*/
 .container {
   position: relative;
-  width: 50%;
+  width: 33.33%;
   max-width: 300px;
 }
 
-/* Make the image to responsive */
+/* Make the image to responsive - block, 100%*/
 .image {
-  display: block;
-  width: 100%;
+  display: table;
+  width: 33.33%;
   height: auto;
 }
 
@@ -4057,6 +4057,7 @@ input, select, textarea {
 .container:hover .overlay {
   opacity: 1;
 }
+
 
 
 
