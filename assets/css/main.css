@@ -4008,14 +4008,14 @@ input, select, textarea {
 } */
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
+/*.column {
   float: left;
   width: 33.33%;
   padding: 5px;
 }
 
 /* Clear floats after image containers */
-.row::after {
+/*.row::after {
   content: "";
   clear: both;
   display: table;
@@ -4024,26 +4024,26 @@ input, select, textarea {
 * {box-sizing: border-box}
 
 /* Container needed to position the overlay. Adjust the width as needed - 50%*/
-.container {
+/*.container {
   position: relative;
   width: 33.33%;
   max-width: 300px;
 }
 
 /* Make the image to responsive - block, 100%*/
-.image {
+/*.image {
   display: table;
   width: 33.33%;
   height: auto;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
-.overlay {
+/*.overlay {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1;
+ /* color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
   opacity:0;
@@ -4054,8 +4054,59 @@ input, select, textarea {
 }
 
 /* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
+/*.container:hover .overlay {
   opacity: 1;
+} */
+
+/* Container for the gallery alignment */
+.gallery {
+    display: flex; /* Aligns child containers horizontally */
+    justify-content: center; /* Centers the images within the gallery */
+    gap: 20px; /* Adds space between images */
+}
+
+/* Individual image container */
+.container {
+    position: relative; /* Crucial for absolute positioning of overlay */
+    width: 30%; /* Adjust width as needed for alignment */
+    overflow: hidden; /* Ensures overlay stays within image bounds */
+}
+
+/* The image itself */
+.image {
+    display: block; /* Removes default whitespace beneath images */
+    width: 100%;
+    height: auto;
+}
+
+/* The overlay div */
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0; /* Hidden by default */
+    transition: opacity .5s ease; /* Smooth transition for the effect */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    display: flex; /* Use flexbox to center text */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Show the overlay when hovering over the container */
+.container:hover .overlay {
+    opacity: 1;
+}
+
+/* Text within the overlay */
+.text {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
 }
 
 
