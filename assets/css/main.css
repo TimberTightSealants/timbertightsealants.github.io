@@ -4158,8 +4158,5 @@ div.gallery1-item div.desc {
 .center-container3 {
     display: flex;
     justify-content: center; /* Centers horizontally */
-    align-items: center;     /* Centers vertically */
-    height: 100vh;           /* Sets the container height to the full viewport height */
-    /* Add any other desired styling for the container */
 }
 
