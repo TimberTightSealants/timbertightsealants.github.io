@@ -4074,7 +4074,7 @@ input, select, textarea {
 div.gallery1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 div.gallery1-item {
