@@ -4079,12 +4079,12 @@ div.gallery1 {
 
 div.gallery1-item {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #293142;
   width: calc(25% - 20px);
 }
 
 div.gallery1-item:hover {
-  border: 1px solid #777;
+  border: 1px solid #ffaa00;
 }
 
 div.gallery1-item img {
