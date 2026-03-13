@@ -4066,6 +4066,51 @@ input, select, textarea {
 	margin-bottom: 20px; /* 20px gap below images */
 }
 
+/* ------------------------------------------------------------------------------------------------------------------ */
+* {
+  box-sizing: border-box;
+}
+
+div.gallery1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery1-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: calc(25% - 20px);
+}
+
+div.gallery1-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery1-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery1-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  div.gallery1-item {
+    width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  div.gallery1-item {
+    width: calc(100% - 20px);
+  }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
 /* Individual image container */
 .container {
     position: relative; /* Crucial for absolute positioning of overlay */
@@ -4109,8 +4154,3 @@ input, select, textarea {
     font-size: 18px;
     padding: 10px;
 }
-
-/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-
-	}
