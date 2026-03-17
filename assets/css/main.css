@@ -4184,3 +4184,7 @@ ol.center-items {
   text-align: center; /* Centers all content inside the li */
   padding-left: 0; /* Removes default padding */
 }
+
+.center-link {
+    text-align: center; /* This centers the inline content inside the paragraph */
+}
