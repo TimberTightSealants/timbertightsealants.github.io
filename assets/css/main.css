@@ -4178,3 +4178,9 @@ ol.inline-center {
   margin-right: auto;
   text-align: left; /* Optional: aligns the list items to the left within the centered ol */
 }
+
+ol.center-items {
+  list-style-position: inside; /* Puts the number/bullet inside the <li> box */
+  text-align: center; /* Centers all content inside the li */
+  padding-left: 0; /* Removes default padding */
+}
