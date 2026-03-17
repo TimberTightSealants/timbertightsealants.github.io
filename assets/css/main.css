@@ -4165,3 +4165,16 @@ ol.center-list {
   margin-left: auto;
   margin-right: auto;
 }
+
+.list-container {
+  text-align: center; /* Centers the inline-block ol */
+}
+
+ol.inline-center {
+  display: inline-block; /* Makes the ol behave like text that can be centered */
+  /* Optional: reset the default padding/margin for better control */
+  padding-left: 0; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left; /* Optional: aligns the list items to the left within the centered ol */
+}
