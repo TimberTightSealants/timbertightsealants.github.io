@@ -4160,3 +4160,8 @@ div.gallery1-item div.desc {
     justify-content: center; /* Centers horizontally */
 }
 
+ol.center-list {
+  display: table; /* Or any other block-level value */
+  margin-left: auto;
+  margin-right: auto;
+}
